@@ -1,0 +1,6 @@
+framework module Pods_waterTime_waterTimeUITests {
+  umbrella header "Pods-waterTime-waterTimeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
