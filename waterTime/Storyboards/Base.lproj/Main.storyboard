@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ouh-VZ-Fcb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ouh-VZ-Fcb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <accessibilityOverrides dynamicTypePreference="0"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -25,14 +26,14 @@
                                 <rect key="frame" x="0.0" y="581.5" width="414" height="216"/>
                             </pickerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUZ-SA-Nfj">
-                                <rect key="frame" x="83" y="131" width="248" height="248"/>
+                                <rect key="frame" x="83" y="135" width="248" height="248"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SUZ-SA-Nfj" secondAttribute="height" id="OnQ-Mw-5Or"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="SX5-wD-ll5" customClass="MBCircularProgressBarView">
-                                <rect key="frame" x="69" y="137" width="276" height="276"/>
+                                <rect key="frame" x="69" y="141" width="276" height="276"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SX5-wD-ll5" secondAttribute="height" id="JqH-sc-q9A"/>
@@ -67,7 +68,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-ZZ-HeM">
-                                <rect key="frame" x="117.5" y="384" width="179" height="50"/>
+                                <rect key="frame" x="117.5" y="388" width="179" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbS-ex-OqO">
                                         <rect key="frame" x="0.0" y="0.0" width="85.5" height="50"/>
@@ -168,7 +169,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="2000" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-lI-Nuo">
-                                <rect key="frame" x="20" y="142" width="378" height="30"/>
+                                <rect key="frame" x="20" y="146" width="378" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="lFO-hb-g01"/>
                                 </constraints>
@@ -177,7 +178,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите количество воды" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duy-Ef-3J0">
-                                <rect key="frame" x="69" y="100" width="276" height="37"/>
+                                <rect key="frame" x="69" y="104" width="276" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="5hN-u0-161"/>
                                 </constraints>
@@ -186,7 +187,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Veg-ey-rts">
-                                <rect key="frame" x="22" y="174" width="374" height="20.5"/>
+                                <rect key="frame" x="22" y="178" width="374" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAZ-ow-IZp">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="20.5"/>
@@ -242,7 +243,7 @@
                                 <rect key="frame" x="-113" y="-32" width="640" height="960"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="ep6-kQ-rMe">
-                                <rect key="frame" x="57" y="114" width="300" height="148"/>
+                                <rect key="frame" x="57" y="118" width="300" height="148"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Почта" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDL-zJ-B6V">
                                         <rect key="frame" x="124" y="0.0" width="52" height="20.5"/>
@@ -274,7 +275,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lew-Om-WAP">
-                                <rect key="frame" x="144" y="336.5" width="126" height="34.5"/>
+                                <rect key="frame" x="144" y="340.5" width="126" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Регистрация"/>
                                 <connections>
@@ -282,15 +283,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgx-aZ-MwL">
-                                <rect key="frame" x="170.5" y="282" width="73" height="34.5"/>
+                                <rect key="frame" x="170.5" y="286" width="73" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Войти"/>
                                 <connections>
                                     <action selector="loginIntoApp:" destination="2CI-60-IAX" eventType="touchUpInside" id="zef-dQ-7Pb"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="9Ml-HW-RrT">
-                                <rect key="frame" x="197" y="289.5" width="20" height="20"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="9Ml-HW-RrT">
+                                <rect key="frame" x="197" y="293.5" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="StK-ev-8yi"/>
@@ -317,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHV-bL-hpA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781.15942028985512" y="79.6875"/>
+            <point key="canvasLocation" x="-822" y="80"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="Tr8-XA-sv6">
@@ -331,7 +332,7 @@
                                 <rect key="frame" x="-113" y="-32" width="640" height="960"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="yYM-Zp-vrT">
-                                <rect key="frame" x="57" y="114" width="300" height="228.5"/>
+                                <rect key="frame" x="57" y="118" width="300" height="228.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Почта" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-za-jBd">
                                         <rect key="frame" x="124" y="0.0" width="52" height="20.5"/>
@@ -375,7 +376,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24Q-k8-UQg">
-                                <rect key="frame" x="144" y="382.5" width="126" height="34.5"/>
+                                <rect key="frame" x="144" y="386.5" width="126" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Регистрация"/>
                                 <connections>
@@ -383,7 +384,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="TYF-b4-vfx">
-                                <rect key="frame" x="197" y="390" width="20" height="20"/>
+                                <rect key="frame" x="197" y="394" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sy2-eH-kCT"/>
@@ -418,7 +419,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ouh-VZ-Fcb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="M8h-Uy-ddb">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
@@ -434,7 +435,7 @@
     </scenes>
     <resources>
         <image name="background" width="640" height="960"/>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="gearshape" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

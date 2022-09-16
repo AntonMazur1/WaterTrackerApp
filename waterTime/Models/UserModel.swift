@@ -1,5 +1,5 @@
 //
-//  User.swift
+//  UserModel.swift
 //  waterTime
 //
 //  Created by Клоун on 31.05.2022.

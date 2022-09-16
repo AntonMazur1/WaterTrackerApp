@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8904F2832843792900E728BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904F2822843792900E728BE /* LoginViewController.swift */; };
-		892396A728494E720093C9B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 892396A628494E720093C9B4 /* GoogleService-Info.plist */; };
 		89609FCC282A8B8600DF3765 /* waterTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89609FC9282A8B8600DF3765 /* waterTime.xcdatamodeld */; };
 		8986368F2827B067004C502D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8986368E2827B067004C502D /* Launch Screen.storyboard */; };
-		898F55AB2846390C00AF4F96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F55AA2846390C00AF4F96 /* User.swift */; };
+		898F55AB2846390C00AF4F96 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F55AA2846390C00AF4F96 /* UserModel.swift */; };
 		89B98F87284B8D33000FBE24 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B98F86284B8D33000FBE24 /* RegisterViewController.swift */; };
+		89C4CB7828D2259900BC6FF0 /* LogOutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4CB7728D2259900BC6FF0 /* LogOutService.swift */; };
+		89C4CB7A28D22A0200BC6FF0 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4CB7928D22A0200BC6FF0 /* DataStorage.swift */; };
+		89EFC2E928CDD9020047A617 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFC2E828CDD9020047A617 /* AuthService.swift */; };
+		89EFC2F428CF86C40047A617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89EFC2EF28CF81DB0047A617 /* GoogleService-Info.plist */; };
 		89F9038B2816D54B0069FEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9038A2816D54B0069FEF9 /* AppDelegate.swift */; };
 		89F9038D2816D54B0069FEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9038C2816D54B0069FEF9 /* SceneDelegate.swift */; };
 		89F9038F2816D54B0069FEF9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9038E2816D54B0069FEF9 /* MainViewController.swift */; };
@@ -54,13 +57,16 @@
 		4CFC64D206F4DB20CEB65CA5 /* Pods-waterTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterTime.debug.xcconfig"; path = "Target Support Files/Pods-waterTime/Pods-waterTime.debug.xcconfig"; sourceTree = "<group>"; };
 		608BC708A83C7955D93AC535 /* Pods-waterTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterTime.release.xcconfig"; path = "Target Support Files/Pods-waterTime/Pods-waterTime.release.xcconfig"; sourceTree = "<group>"; };
 		8904F2822843792900E728BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		892396A628494E720093C9B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89609FCA282A8B8600DF3765 /* waterTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterTime.xcdatamodel; sourceTree = "<group>"; };
 		89609FCB282A8B8600DF3765 /* waterTime 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "waterTime 2.xcdatamodel"; sourceTree = "<group>"; };
 		8986368E2827B067004C502D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		898F55AA2846390C00AF4F96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		898F55AA2846390C00AF4F96 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		8996C51F28436E2800A8EDB7 /* waterTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = waterTime.entitlements; sourceTree = "<group>"; };
 		89B98F86284B8D33000FBE24 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		89C4CB7728D2259900BC6FF0 /* LogOutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutService.swift; sourceTree = "<group>"; };
+		89C4CB7928D22A0200BC6FF0 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		89EFC2E828CDD9020047A617 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		89EFC2EF28CF81DB0047A617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89F903872816D54B0069FEF9 /* waterTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F9038A2816D54B0069FEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89F9038C2816D54B0069FEF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,20 +150,45 @@
 			children = (
 				89F9038A2816D54B0069FEF9 /* AppDelegate.swift */,
 				89F9038C2816D54B0069FEF9 /* SceneDelegate.swift */,
-				89F903902816D54B0069FEF9 /* Main.storyboard */,
-				89F903962816D54D0069FEF9 /* Assets.xcassets */,
-				8986368E2827B067004C502D /* Launch Screen.storyboard */,
-				89609FC9282A8B8600DF3765 /* waterTime.xcdatamodeld */,
+				89F9039B2816D54D0069FEF9 /* Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
 		};
-		898F55AC2846391600AF4F96 /* Structs */ = {
+		898F55AC2846391600AF4F96 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				898F55AA2846390C00AF4F96 /* User.swift */,
+				898F55AA2846390C00AF4F96 /* UserModel.swift */,
 			);
-			path = Structs;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89EFC2EA28CDD9070047A617 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				89EFC2E828CDD9020047A617 /* AuthService.swift */,
+				89C4CB7728D2259900BC6FF0 /* LogOutService.swift */,
+				89C4CB7928D22A0200BC6FF0 /* DataStorage.swift */,
+				89609FC9282A8B8600DF3765 /* waterTime.xcdatamodeld */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		89EFC2F028CF822E0047A617 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				89F903902816D54B0069FEF9 /* Main.storyboard */,
+				8986368E2827B067004C502D /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		89EFC2F128CF824D0047A617 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89F903962816D54D0069FEF9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		89F9037E2816D54B0069FEF9 = {
@@ -186,12 +217,14 @@
 			isa = PBXGroup;
 			children = (
 				8996C51F28436E2800A8EDB7 /* waterTime.entitlements */,
-				89F9039B2816D54D0069FEF9 /* Info.plist */,
-				892396A628494E720093C9B4 /* GoogleService-Info.plist */,
-				8904F28428437A3000E728BE /* View Controllers */,
-				8904F28528437A4600E728BE /* Protocols */,
-				898F55AC2846391600AF4F96 /* Structs */,
+				89EFC2EF28CF81DB0047A617 /* GoogleService-Info.plist */,
 				8904F28628437A5000E728BE /* Application */,
+				8904F28428437A3000E728BE /* View Controllers */,
+				89EFC2F028CF822E0047A617 /* Storyboards */,
+				89EFC2F128CF824D0047A617 /* Resources */,
+				8904F28528437A4600E728BE /* Protocols */,
+				898F55AC2846391600AF4F96 /* Models */,
+				89EFC2EA28CDD9070047A617 /* Services */,
 			);
 			path = waterTime;
 			sourceTree = "<group>";
@@ -333,7 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8986368F2827B067004C502D /* Launch Screen.storyboard in Resources */,
-				892396A728494E720093C9B4 /* GoogleService-Info.plist in Resources */,
+				89EFC2F428CF86C40047A617 /* GoogleService-Info.plist in Resources */,
 				89F903972816D54D0069FEF9 /* Assets.xcassets in Resources */,
 				89F903922816D54B0069FEF9 /* Main.storyboard in Resources */,
 			);
@@ -466,10 +499,13 @@
 				89B98F87284B8D33000FBE24 /* RegisterViewController.swift in Sources */,
 				8904F2832843792900E728BE /* LoginViewController.swift in Sources */,
 				89F903BE2816D8220069FEF9 /* SettingViewController.swift in Sources */,
+				89C4CB7A28D22A0200BC6FF0 /* DataStorage.swift in Sources */,
+				89C4CB7828D2259900BC6FF0 /* LogOutService.swift in Sources */,
 				89F9038F2816D54B0069FEF9 /* MainViewController.swift in Sources */,
 				89F9038B2816D54B0069FEF9 /* AppDelegate.swift in Sources */,
-				898F55AB2846390C00AF4F96 /* User.swift in Sources */,
+				898F55AB2846390C00AF4F96 /* UserModel.swift in Sources */,
 				89609FCC282A8B8600DF3765 /* waterTime.xcdatamodeld in Sources */,
+				89EFC2E928CDD9020047A617 /* AuthService.swift in Sources */,
 				89F9038D2816D54B0069FEF9 /* SceneDelegate.swift in Sources */,
 				89FF112B2832ADC800E4659F /* SettingViewControllerProtocol.swift in Sources */,
 			);
@@ -646,7 +682,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2AAW35578;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = waterTime/Info.plist;
+				INFOPLIST_FILE = waterTime/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -676,7 +712,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2AAW35578;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = waterTime/Info.plist;
+				INFOPLIST_FILE = waterTime/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
