@@ -1,6 +1,6 @@
 # WaterTrackerApp
 
-Water Tracker
+Water Tracker  
 Приложение для подсчета количества выпитой воды
 
 - Реализовано сохранение в базу CoreData
